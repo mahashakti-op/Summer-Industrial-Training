@@ -22,7 +22,7 @@ The goal is to stay consistent, improve every day, and maintain a public record 
 
 # 👨‍💻 About Me
 
-**Prakhar Bhatnagar**
+**Ishan Airan**
 
 B.Tech Artificial Intelligence & Machine Learning  
 Guru Gobind Singh Indraprastha University (GGSIPU)
@@ -32,8 +32,8 @@ Interested in:
 - Machine Learning
 - Data Science
 - Deep Learning
-- Computer Vision
-- Government R&D (DRDO, ISRO)
+- Data Structures and Algorithms
+- Syste Design
 
 ---
 
@@ -114,7 +114,7 @@ Interested in:
 - MLflow
 - GitHub Actions
 
-## Module 12 – Capstone Projects
+## Module 12 – Data Capstone Projects
 
 ---
 
