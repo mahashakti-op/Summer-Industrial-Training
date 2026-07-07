@@ -104,12 +104,8 @@ By the end of Day 3, I was able to:
 
 ## 🚀 What's Next?
 
-- Not sure will find out
-- GroupBy Operations
-- Aggregation Functions
-- Data Visualization using Matplotlib & Seaborn
-- Feature Engineering
-
+- Power BI
+- Advanced Power BI
 ---
 
 ## 📸 Snapshot
