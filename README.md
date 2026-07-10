@@ -135,7 +135,7 @@ Summer_Industrial_Training/
 
 │
 ├── Day_01/
-│   ├── numpy_basics.ipynb
+│   ├── Day 1 Summer Intenrship.ipynb
 │   └── README.md
 │
 ├── Day_02/
