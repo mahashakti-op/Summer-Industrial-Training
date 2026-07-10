@@ -53,8 +53,6 @@ BUT NOTE : I HAVE A MAC SO I CAN"T DO POWER BI (only learned theoritically)
 
 ```text
 Day_04/
-│
-├── Industrial_Training_Day4.ipynb (or PowerBI workbook if applicable)
 └── README.md
 ```
 
