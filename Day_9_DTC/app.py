@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Loading Model
-model = joblib.load("Decision_tree_classifier.pkl")
+model = joblib.load("model/Decision_tree_classifier.pkl")
 
 st.title("❤️ Heart Disease Prediction System ")
 
