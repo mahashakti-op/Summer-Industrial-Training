@@ -4,6 +4,8 @@
 
 This project predicts whether a patient is likely to have heart disease using a Decision Tree Classifier.
 
+Here's the link :  https://summer-industrial-training-r37kd57e63eachm4zstvz9.streamlit.app/
+
 ## 🛠 Technologies Used
 
 - Python
