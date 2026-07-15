@@ -127,58 +127,38 @@ with col1:
 
 with col2:
 
-    mileage=st.number_input(
-
+    mileage = st.number_input(
         "Mileage (km/l)",
-
         value=18.0
-
     )
 
-     accidents = st.number_input(
-    "Accidents Reported",
-    min_value=0,
-    max_value=20,
-    value=0
-    )
-
-    engine=st.number_input(
-
+    engine = st.number_input(
         "Engine (CC)",
-
         value=1200
-
     )
 
-    owner=st.number_input(
-
+    owner = st.number_input(
         "Owner Count",
-
         1,
         5,
         1
-
     )
 
-    service=st.selectbox(
+    accidents = st.number_input(
+        "Accidents Reported",
+        min_value=0,
+        max_value=20,
+        value=0
+    )
 
+    service = st.selectbox(
         "Service History",
-
-        [
-            "Full",
-            "Partial"
-        ]
-
+        ["Full", "Partial"]
     )
 
-    insurance=st.selectbox(
-
+    insurance = st.selectbox(
         "Insurance Valid",
-
-        [
-            "Yes",
-            "No"
-        ]
+        ["Yes", "No"]
     )
 
 # ==========================
