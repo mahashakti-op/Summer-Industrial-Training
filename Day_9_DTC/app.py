@@ -1,9 +1,15 @@
 import streamlit as st
 import pandas as pd
 import joblib
+from pathlib import Path
 
-# Loading Model
-model = joblib.load("model/Decision_tree_classifier.pkl")
+# Absolute path to the folder containing app.py
+BASE_DIR = Path(__file__).resolve().parent
+
+# Absolute path to the model
+MODEL_PATH = BASE_DIR / "model" / "Decision_tree_classifier.pkl"
+
+model = joblib.load(MODEL_PATH)
 
 st.title("❤️ Heart Disease Prediction System ")
 
