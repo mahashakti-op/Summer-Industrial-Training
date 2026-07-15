@@ -47,7 +47,7 @@ st.sidebar.markdown("---")
 
 st.sidebar.success("Random Forest Regressor")
 
-st.sidebar.info("R² Score : 85.22%")
+st.sidebar.info("R² Score : 82%")
 
 st.sidebar.write("Dataset")
 
