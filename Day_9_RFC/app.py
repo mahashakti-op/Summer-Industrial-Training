@@ -125,37 +125,23 @@ elif property_area=="Urban":
     property_area_urban=1
 
 if st.button("🔍 Predict Loan Approval"):
+
     input_data = pd.DataFrame({
 
-    "Gender":[gender],
+        "Gender":[gender],
+        "Married":[married],
+        "Dependents":[dependents],
+        "Education":[education],
+        "Self_Employed":[self_employed],
+        "ApplicantIncome":[applicant_income],
+        "CoapplicantIncome":[coapplicant_income],
+        "LoanAmount":[loan_amount],
+        "Loan_Amount_Term":[loan_term],
+        "Credit_History":[credit_history],
+        "Property_Area_Semiurban":[property_area_semiurban],
+        "Property_Area_Urban":[property_area_urban]
 
-    "Married":[married],
-
-    "Dependents":[dependents],
-
-    "Education":[education],
-
-    "Self_Employed":[self_employed],
-
-    "ApplicantIncome":[applicant_income],
-
-    "CoapplicantIncome":[coapplicant_income],
-
-    "LoanAmount":[loan_amount],
-
-    "Loan_Amount_Term":[loan_term],
-
-    "Credit_History":[credit_history],
-
-    "Property_Area_Semiurban":[property_area_semiurban],
-
-    "Property_Area_Urban":[property_area_urban]
-
-})
-
- if st.button("🔍 Predict Loan Approval"):
-
-    input_data = pd.DataFrame(...)
+    })
 
     prediction = model.predict(input_data)
 
@@ -168,4 +154,7 @@ if st.button("🔍 Predict Loan Approval"):
     else:
         st.error("❌ Loan Rejected")
 
-    st.metric("Confidence", f"{confidence:.2f}%")
+    st.metric(
+        "Prediction Confidence",
+        f"{confidence:.2f}%"
+    )
