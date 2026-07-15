@@ -4,6 +4,7 @@
 
 This project predicts the estimated medical insurance charges based on a person's demographic and health-related information using a Decision Tree Regressor.
 
+Here's the link : https://summer-industrial-training-h5nccjzgptzwnp7ihm5pbd.streamlit.app/
 ---
 
 ## 🛠 Technologies Used
