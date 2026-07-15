@@ -4,7 +4,7 @@
 
 This project predicts whether a loan application is likely to be **Approved** or **Rejected** using a Random Forest Classifier. It includes data preprocessing, missing value handling, feature encoding, hyperparameter tuning using RandomizedSearchCV, model evaluation, and deployment with Streamlit.
 
-Here's the link : 
+Here's the link : https://summer-industrial-training-tjr5au3syqyacamelshxmv.streamlit.app/
 ---
 
 ## 🛠 Technologies Used
