@@ -153,21 +153,19 @@ if st.button("🔍 Predict Loan Approval"):
 
 })
 
-    if prediction[0] == 1:
-    
-        st.success("✅ Loan Approved")
-    
-        st.balloons()
-    
-    else:
-    
-        st.error("❌ Loan Rejected")
+ if st.button("🔍 Predict Loan Approval"):
+
+    input_data = pd.DataFrame(...)
+
+    prediction = model.predict(input_data)
 
     probability = model.predict_proba(input_data)
-    
     confidence = probability.max() * 100
-    
-    st.metric(
-        "Prediction Confidence",
-        f"{confidence:.2f}%"
-    )
+
+    if prediction[0] == 1:
+        st.success("✅ Loan Approved")
+        st.balloons()
+    else:
+        st.error("❌ Loan Rejected")
+
+    st.metric("Confidence", f"{confidence:.2f}%")
