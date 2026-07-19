@@ -11,10 +11,21 @@ st.set_page_config(
     layout="centered"
 )
 
+import os
+import streamlit as st
+
+st.write("Current directory:", os.getcwd())
+st.write("Files in current directory:", os.listdir("."))
+
+if os.path.exists("model"):
+    st.write("Files in model folder:", os.listdir("model"))
+else:
+    st.error("❌ 'model' folder not found")
+
 # -----------------------------
 # Load Model
 # -----------------------------
-model = joblib.load("linear_regression_model.pkl")
+#model = joblib.load("linear_regression_model.pkl")
 
 # -----------------------------
 # Sidebar
