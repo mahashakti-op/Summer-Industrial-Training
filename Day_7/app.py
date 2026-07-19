@@ -28,7 +28,7 @@ using a trained **Linear Regression Model**.
 - Linear Regression
 
 **Developer**
-- Your Name
+- Ishan Airan
 """)
 
 # -----------------------------
@@ -93,8 +93,7 @@ if st.button("🚀 Predict Price", use_container_width=True):
         ]
     )
 
-    prediction = model.predict(input_data)[0]
-
+    prediction = float(model.predict(input_data)[0])
     st.success("Prediction Successful!")
 
     st.metric(
