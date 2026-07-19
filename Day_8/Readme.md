@@ -48,12 +48,10 @@ Here's the streamlit app link : https://summer-industrial-training-fvmtfxvnyxedg
 Day_08/
 │
 ├── Industrial_Training_Day8.ipynb
-├── mnist_classifier.pkl
+├── flower_model.pkl
 ├── app.py
 ├── requirements.txt
 ├── README.md
-└── screenshots/
-    └── app_preview.png
 ```
 
 ---
