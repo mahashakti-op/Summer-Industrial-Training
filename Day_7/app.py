@@ -92,11 +92,10 @@ if st.button("🚀 Predict Price", use_container_width=True):
             "Area Population"
         ]
     )
-    print(type(lr.predict(X_test)))
-    print(lr.predict(X_test)[:5])
+    
     prediction = model.predict(input_data)
 
-    prediction = float(prediction[0])
+    prediction = float(model.predict(input_data).item())
 
     st.metric(
         label="🏠 Estimated House Price",
