@@ -2,7 +2,7 @@
 
 A Machine Learning project that recommends movies similar to a selected movie using the **K-Nearest Neighbors (KNN)** algorithm. The project is deployed as an interactive **Streamlit Web Application**, allowing users to select a movie and instantly receive similar movie recommendations.
 
-Here's the link : 
+Here's the link : https://summer-industrial-training-fuautnftxrrlgv8kpebddg.streamlit.app/
 ---
 
 ## 📌 Project Overview
