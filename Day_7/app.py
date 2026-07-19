@@ -14,7 +14,7 @@ st.set_page_config(
 # -----------------------------
 # Load Model
 # -----------------------------
-model = joblib.load("model/linear_regression_model.pkl")
+model = joblib.load("linear_regression_model.pkl")
 
 # -----------------------------
 # Sidebar
