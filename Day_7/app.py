@@ -92,15 +92,15 @@ if st.button("🚀 Predict Price", use_container_width=True):
             "Area Population"
         ]
     )
+    
+    prediction = model.predict(input_data)
 
-    prediction = float(model.predict(input_data)[0])
-    st.success("Prediction Successful!")
+    prediction = float(prediction[0])
 
     st.metric(
-        label="🏡 Estimated House Price",
+        label="🏠 Estimated House Price",
         value=f"${prediction:,.2f}"
     )
-
 st.divider()
 
 st.caption("Made with ❤️ using Streamlit")
