@@ -1,117 +1,167 @@
-# 📅 Day 07 – Building My First Machine Learning Model (Linear Regression)
+# 🏠 House Price Prediction using Linear Regression
 
-**Date:** **13 July 2026**
+A Machine Learning project that predicts house prices based on various housing features using the **Linear Regression** algorithm. The project also includes an interactive **Streamlit web application** for real-time predictions.
 
-Day 7 was my introduction to building a complete **Machine Learning model** using **Scikit-Learn**. I learned the end-to-end workflow of training a model, making predictions, and evaluating its performance using **Linear Regression**.
+Here's the link : https://summer-industrial-training-dvecxcpncf2kyxnowsqxnn.streamlit.app/
+---
+
+## 📌 Project Overview
+
+The objective of this project is to build a regression model that can estimate the price of a house using different numerical features such as:
+
+- Average Area Income
+- Average Area House Age
+- Average Area Number of Rooms
+- Average Area Number of Bedrooms
+- Area Population
+
+The model is trained using the **USA Housing Dataset** and deployed with **Streamlit** for easy user interaction.
 
 ---
 
-## 📚 Topics Covered
+## 📂 Dataset
 
-### 🤖 Machine Learning Workflow
+**Dataset:** USA Housing Dataset
 
-- Importing required libraries
-- Loading dataset using Pandas
-- Data preprocessing and understanding
-- Feature selection
-- Train-Test Split
-- Building a Linear Regression model
-- Training the model
-- Making predictions
-- Evaluating model performance
-- Introduction to saving models using Pickle
+### Features
 
----
+| Feature | Description |
+|---------|-------------|
+| Avg. Area Income | Average income of residents in the area |
+| Avg. Area House Age | Average age of houses in the area |
+| Avg. Area Number of Rooms | Average number of rooms |
+| Avg. Area Number of Bedrooms | Average number of bedrooms |
+| Area Population | Population of the area |
 
-### 📦 Libraries Used
+### Target
 
-- **Pandas** – Data handling
-- **NumPy** – Numerical operations
-- **Matplotlib** – Data visualization
-- **Seaborn** – Statistical visualization
-- **Scikit-Learn** – Machine Learning
-- **Pickle** – Model serialization
+- Price
 
 ---
 
-## 🧠 Machine Learning Pipeline
+## 🛠 Technologies Used
 
-1. Import libraries
-2. Load dataset
-3. Perform EDA / Data Cleaning
-4. Split data into Training & Testing sets
-5. Import the Machine Learning model
-6. Train (fit) the model
-7. Make predictions
-8. Evaluate model performance
-9. Save the trained model (.pkl)
-10. Build GUI/Application
-11. Integrate the saved model into the application
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Joblib
+- Streamlit
 
 ---
 
-## 📈 Model Used
+## 🤖 Machine Learning Algorithm
 
 ### Linear Regression
 
-- Imported using `sklearn.linear_model`
-- Trained on housing dataset
-- Predicted house prices
-- Evaluated using **R² Score**
+Linear Regression is a supervised machine learning algorithm used for predicting continuous numerical values.
+
+In this project, it learns the relationship between housing features and house prices to make future predictions.
 
 ---
 
-## 📂 Files
+## 📊 Model Workflow
+
+1. Import Libraries
+2. Load Dataset
+3. Data Exploration
+4. Data Preprocessing
+5. Feature Selection
+6. Train-Test Split
+7. Train Linear Regression Model
+8. Evaluate Model
+9. Save Model using Joblib
+10. Deploy using Streamlit
+
+---
+
+## 📈 Evaluation Metrics
+
+The model was evaluated using:
+
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+---
+
+## 🌐 Streamlit Application
+
+The web application allows users to:
+
+- Enter house details
+- Predict house price instantly
+- View predictions through an interactive interface
+
+---
+
+## 📁 Project Structure
 
 ```text
-Day_07/
+House_Price_Prediction/
 │
-├── Day_7.ipynb
+├── app.py
+├── model/
+│   └── linear_regression_model.pkl
+├── USA_Housing.csv
+├── Linear_Regression.ipynb
+├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## 🎯 Learning Outcomes
+## 🚀 Installation
 
-By the end of Day 7, I was able to:
+Clone the repository
 
-- Understand the complete Machine Learning workflow.
-- Prepare data for training.
-- Split data into training and testing sets.
-- Train a Linear Regression model.
-- Generate predictions on unseen data.
-- Evaluate model performance using R² Score.
-- Learn the purpose of Pickle (.pkl) files for model deployment.
+```bash
+git clone <repository-link>
+```
+
+Move into the project directory
+
+```bash
+cd House_Price_Prediction
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application
+
+```bash
+streamlit run app.py
+```
 
 ---
 
-## 💡 Key Takeaways
+## 📷 Application Preview
 
-- Every Machine Learning project follows a structured pipeline.
-- Proper train-test splitting helps evaluate model performance fairly.
-- Linear Regression is one of the simplest supervised learning algorithms.
-- Scikit-Learn makes building ML models straightforward.
-- Model evaluation is as important as model training.
+> Add screenshots of your Streamlit application here.
 
 ---
 
-## 🚀 What's Next?
+## 🎯 Future Improvements
 
-- Multiple Linear Regression
-- Classification Algorithms
-- Model Evaluation Metrics
+- Better UI Design
+- Model Comparison with other Regression Algorithms
 - Feature Engineering
-- Model Deployment using Pickle & GUI
+- Hyperparameter Optimization
+- Cloud Deployment
 
 ---
 
-## 📸 Snapshot
+## 👨‍💻 Developer
 
-✔️ **Day 7 Completed**
+**Ishan Airan**
 
-**Status:** ✅ Completed
+Computer Science Engineering Student
 
 ---
 
-> *"Machine Learning isn't just about building models—it's about teaching data to tell the future."*
+## ⭐ If you found this project helpful, consider giving it a star!
