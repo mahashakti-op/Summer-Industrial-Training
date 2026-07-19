@@ -4,6 +4,8 @@
 
 Day 8 focused on learning **Logistic Regression**, one of the fundamental supervised Machine Learning algorithms used for classification tasks. To reinforce the concepts, I built a handwritten digit classifier using the **MNIST dataset** and deployed the trained model as an interactive web application using **Streamlit**.
 
+Here's the streamlit app link : https://summer-industrial-training-fvmtfxvnyxedgbtsjsggut.streamlit.app/
+
 ---
 
 ## 📚 Topics Covered
