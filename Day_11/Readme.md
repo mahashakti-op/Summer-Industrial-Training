@@ -2,7 +2,7 @@
 
 A Machine Learning project that segments customers into different groups based on their purchasing behavior using the **K-Means Clustering Algorithm**. The project also includes an interactive **Streamlit Web Application** that allows users to identify the customer segment by entering customer details.
 
-Here's the link : 
+Here's the link : https://summer-industrial-training-z87hqn6ocrq6hammuspuqp.streamlit.app/
 ---
 
 ## 📌 Project Overview
