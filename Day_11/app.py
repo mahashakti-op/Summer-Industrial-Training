@@ -14,7 +14,7 @@ st.set_page_config(
 # ----------------------------
 # Load Model
 # ----------------------------
-model_data = joblib.load("kmeans.pkl")
+model_data = joblib.load("Day_11/kmeans.pkl")
 
 kmeans = model_data["model"]
 scaler = model_data["scaler"]
