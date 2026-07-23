@@ -1,14 +1,3 @@
-"""
-AI Misinformation Detector - Streamlit Dashboard
-=================================================
-This file ONLY builds the user interface. It does not train anything.
-It loads the already-trained `model.pkl` and `tfidf_vectorizer.pkl` and reuses
-the exact `clean_text()` preprocessing function copied from notebook.ipynb so
-that training-time cleaning and prediction-time cleaning stay identical.
-
-Run with:  streamlit run app.py
-"""
-
 import re
 import string
 import time
@@ -303,7 +292,7 @@ st.markdown(
 # -------------------------------------------------------------------------
 # MAIN INPUT CARD
 # -------------------------------------------------------------------------
-st.markdown('<div class="app-card">', unsafe_allow_html=True)
+
 st.markdown("#### ✍️ Enter a news article or post")
 
 st.text_area(
