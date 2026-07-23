@@ -28,8 +28,8 @@ FEATURE_LABEL = "TF-IDF Vectorizer"
 DATASET_LABEL = "Fake & Real News Dataset (Kaggle)"
 BEST_MODEL_F1 = "99.3%"  # from the notebook's saved evaluation results
 
-MODEL_PATH = "model.pkl"
-VECTORIZER_PATH = "tfidf_vectorizer.pkl"
+MODEL_PATH = "Major_Project/model.pkl"
+VECTORIZER_PATH = "Major_Project/tfidf_vectorizer.pkl"
 
 
 # -------------------------------------------------------------------------
