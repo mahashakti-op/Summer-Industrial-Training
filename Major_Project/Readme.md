@@ -19,15 +19,21 @@ The accompanying research paper inspired the topic and the transparent classical
 
 ## Dataset
 
-Place the dataset at `dataset/fake_news.csv`. It must contain these columns:
+This project uses the Kaggle Fake and Real News Dataset.
 
-| Column | Meaning |
-| --- | --- |
-| `title` | News headline or post title |
-| `text` | Main article or social media text |
-| `label` | `0` for real and `1` for fake |
+Download:
 
-A small demonstration dataset is included so the notebook can run immediately. Replace it with a larger, properly labelled dataset before using the project results in a report or presentation.
+https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
+
+Place
+
+Fake.csv
+
+True.csv
+
+inside
+
+dataset/Readme.md
 
 ## Models Used
 
