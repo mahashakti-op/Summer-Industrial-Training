@@ -5,6 +5,16 @@
 This beginner-friendly college project classifies a news article or social media post as **REAL** (`0`) or **FAKE** (`1`). It uses traditional Natural Language Processing and Machine Learning: cleaned title and article text are converted into TF-IDF features, then three classifiers are compared automatically.
 
 The accompanying research paper inspired the topic and the transparent classical-ML pipeline. This repository intentionally uses only the requested traditional models, rather than deep learning or LLMs.
+Note: This model works on new articles which have words related to 
+Political articles
+US politics
+Trump
+Clinton
+Elections
+White House
+International politics (2016–2018)
+
+Here's the link : https://summer-industrial-training-jg72czu6abgfu8ykyrt7xj.streamlit.app/
 
 ## Features
 
