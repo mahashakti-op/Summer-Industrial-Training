@@ -250,10 +250,10 @@ def clear_input():
 # -------------------------------------------------------------------------
 with st.sidebar:
     st.markdown("### 📊 Project Information")
-    st.markdown(f"**Developer**\n\n{DEVELOPER_NAME}")
-    st.markdown(f"**Model Used**\n\n{MODEL_LABEL}")
-    st.markdown(f"**Feature Extraction**\n\n{FEATURE_LABEL}")
-    st.markdown(f"**Dataset**\n\n{DATASET_LABEL}")
+    st.markdown(f"**Developer:**\n\n{DEVELOPER_NAME}")
+    st.markdown(f"**Model Used:**\n\n{MODEL_LABEL}")
+    st.markdown(f"**Feature Extraction:**\n\n{FEATURE_LABEL}")
+    st.markdown(f"**Dataset:**\n\n{DATASET_LABEL}")
 
     st.markdown("---")
     st.markdown("### ⚙️ Machine Learning Pipeline")
