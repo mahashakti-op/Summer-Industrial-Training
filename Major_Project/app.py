@@ -11,7 +11,7 @@ from nltk.stem import WordNetLemmatizer
 # -------------------------------------------------------------------------
 # CONFIG - edit these small constants if your details ever change
 # -------------------------------------------------------------------------
-DEVELOPER_NAME = "Ishan"
+DEVELOPER_NAME = "Ishan Airan"
 MODEL_LABEL = "Linear SVM"
 FEATURE_LABEL = "TF-IDF Vectorizer"
 DATASET_LABEL = "Fake & Real News Dataset (Kaggle)"
